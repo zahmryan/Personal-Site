@@ -1,15 +1,14 @@
 @keyframes animatedBackground {
-  from { background-position: 0 0; }
-  to { background-position: 100% 0; }
-  from { background-position: 100% 0; }
-  to { background-position: 0 0; }
+  0% { background-position: 0 0; }
+  50% { background-position: 100% 0; }
+  100% {background-position: 0 0; }
 }
 
 .jumbotron {
   color: white;
   padding-bottom: 80px;
   background: url("../background.jpg") repeat-x 0 0;
-  animation: animatedBackground 40s linear infinite;
+  animation: animatedBackground 60s linear infinite;
 }
   .jumbotron .btn-primary {
     background: #845ac7;
