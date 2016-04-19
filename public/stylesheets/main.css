@@ -1,8 +1,14 @@
+@keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 100% 0; }
+}
+
 .jumbotron {
-  background-image: url("../tell-background.jpg");
-  background: #532F8C;
   color: white;
-  padding-bottom: 80px; }
+  padding-bottom: 80px;
+  background: url("../tell-background.jpg") repeat-x 0 0;
+  animation: animatedBackground 40s linear infinite;
+}
   .jumbotron .btn-primary {
     background: #845ac7;
     border-color: #845ac7; }
