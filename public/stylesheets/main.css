@@ -1,4 +1,5 @@
 .jumbotron {
+  background-image: url("../tell-background.jpg");
   background: #532F8C;
   color: white;
   padding-bottom: 80px; }
