@@ -8,7 +8,7 @@
   color: white;
   padding-bottom: 80px;
   background: url("../background.jpg") repeat-x 0 0;
-  animation: animatedBackground 60s linear infinite;
+  animation: animatedBackground 80s linear infinite;
 }
   .jumbotron .btn-primary {
     background: #845ac7;
