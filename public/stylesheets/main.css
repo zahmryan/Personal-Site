@@ -33,3 +33,10 @@
     .jumbotron .lang-logo img {
       max-width: 100%; }
 
+    h1 {
+      font-family: fantasy;
+    }
+
+    .subheader {
+      margin-top: -10px;
+    }
