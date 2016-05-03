@@ -36,3 +36,7 @@
     h1 {
       font-family: fantasy;
     }
+
+    body {
+      background-color: grey;
+    }
