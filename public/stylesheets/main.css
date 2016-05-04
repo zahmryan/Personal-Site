@@ -55,3 +55,12 @@
     .footerList li {
       display: inline;
     }
+
+    .footerLogos {
+      text-align: center;
+    }
+
+    .underFooter {
+      background-color: black;
+      font-size: small;
+    }
