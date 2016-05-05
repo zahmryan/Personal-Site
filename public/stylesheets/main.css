@@ -48,7 +48,7 @@
 
     .footerList {
       margin: auto;
-      padding: 5px;
+      padding: 10px;
       list-style-type: none;
     }
 
@@ -63,4 +63,9 @@
     .underFooter {
       background-color: black;
       font-size: small;
+      text-align: center;
+    }
+
+    .underFooter p {
+      color: grey;
     }
